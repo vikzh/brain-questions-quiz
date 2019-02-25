@@ -1,6 +1,6 @@
 {
   "name": "@vikzh/brain-games",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "cli game",
   "main": "dist/index.js",
   "bin": {
