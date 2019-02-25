@@ -1,3 +1,5 @@
 #!/usr/bin/env node
 
-console.log('welcome to brain games');
+import brainGame from '../index';
+
+console.log(brainGame());
