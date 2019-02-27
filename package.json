@@ -2,7 +2,12 @@
   "name": "@vikzh/brain-games",
   "version": "0.1.1",
   "description": "cli game",
-  "main": "dist/index.js",
+  "keywords": [
+    "brain",
+    "cli",
+    "console",
+    "game"
+  ],
   "bin": {
     "brain-games": "dist/bin/brain-games.js"
   },
@@ -15,7 +20,7 @@
     "type": "git",
     "url": "git+https://github.com/vikzh/project-lvl1-s450.git"
   },
-  "author": "",
+  "author": "Viktor zhukovsky",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/vikzh/project-lvl1-s450/issues"
