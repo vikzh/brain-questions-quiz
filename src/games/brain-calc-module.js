@@ -1,5 +1,5 @@
 import brainEngine from '..';
-import getRandomNumber from '../utils';
+import { getRandomNumber } from '../utils';
 
 const description = 'What is the result of the expression?';
 const operations = [
