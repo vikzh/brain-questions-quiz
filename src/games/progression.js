@@ -1,5 +1,5 @@
 import brainEngine from '..';
-import { getRandomNumber } from '../utils';
+import getRandomNumber from '../utils';
 
 const task = 'What number is missing in the progression?';
 const progressionLength = 10;

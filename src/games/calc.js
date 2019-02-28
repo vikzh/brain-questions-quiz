@@ -1,5 +1,5 @@
 import brainEngine from '..';
-import { getRandomNumber } from '../utils';
+import getRandomNumber from '../utils';
 
 const description = 'What is the result of the expression?';
 const operations = [
@@ -11,7 +11,7 @@ const operations = [
 const brainCalc = () => {
   const a = getRandomNumber(0, 100);
   const b = getRandomNumber(0, 100);
-  const operatorNumber = getRandomNumber(0, 2);
+  const operatorNumber = getRandomNumber(0, operations.length);
   return operations[operatorNumber](a, b);
 };
 
