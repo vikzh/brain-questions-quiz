@@ -1,4 +1,5 @@
-import { brainEngine, getRandomNumber } from '..';
+import brainEngine from '..';
+import getRandomNumber from '../utils';
 
 const gameTask = 'Answer "yes" if number even otherwise answer "no".';
 const maxNumber = 100;
