@@ -12,4 +12,4 @@ const brainEvenData = () => {
   return [question, answer];
 };
 
-export default () => brainEngine(gameTask, brainEvenData);;
+export default () => brainEngine(gameTask, brainEvenData);

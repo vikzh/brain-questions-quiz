@@ -3,4 +3,3 @@
 import brainEven from '../games/brain-even-module';
 
 brainEven();
-

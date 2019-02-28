@@ -1,6 +1,6 @@
 {
   "name": "@vikzh/brain-games",
-  "version": "0.2.3",
+  "version": "0.3.3",
   "description": "cli game",
   "keywords": [
     "brain",
@@ -9,7 +9,8 @@
     "game"
   ],
   "bin": {
-    "brain-games": "dist/bin/brain-games.js"
+    "brain-even": "dist/bin/brain-even.js",
+    "brain-calc": "dist/bin/brain-calc.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
