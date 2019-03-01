@@ -12,14 +12,14 @@ const brainEngine = (task, gameData) => {
     const userAnswer = readLineSync.question('Your answer is: ');
     if (userAnswer === rightAnswer) {
       console.log('Correct!');
-      if (i === 1) {
-        console.log(`Congratulations, ${userName}`);
-      }
     } else {
-      console.log(`'${userAnswer}' is a wrong answer. Correct Answer was ${rightAnswer}\n Let's try again, ${userName}`);
-      break;
+      console.log(`'${userAnswer}' is a wrong answer.`);
+      console.log(`Correct Answer was ${rightAnswer}\nLet's try again, ${userName}`);
+      return false;
     }
   }
+  console.log(`Congratulations, ${userName}`);
+  return true;
 };
 
 export default brainEngine;
