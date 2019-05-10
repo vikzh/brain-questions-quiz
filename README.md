@@ -1,5 +1,5 @@
 ## Brain questions game
-[![Maintainability](https://api.codeclimate.com/v1/badges/93b4fc6993fed0fb3844/maintainability)](https://codeclimate.com/github/vikzh/project-lvl1-s450/maintainability)[![Build Status](https://travis-ci.org/vikzh/project-lvl1-s450.svg?branch=master)](https://travis-ci.org/vikzh/project-lvl1-s450)
+[![Maintainability](https://api.codeclimate.com/v1/badges/d3305a3614135b51907d/maintainability)](https://codeclimate.com/github/vikzh/brain-questions-quiz/maintainability)[![Build Status](https://travis-ci.org/vikzh/brain-questions-quiz.svg?branch=master)](https://travis-ci.org/vikzh/brain-questions-quiz)
 
 ### Setup
 `npm install @vikzh/brain-games`
